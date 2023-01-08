@@ -12,4 +12,8 @@ public class WordPair {
         int loc = thePair.indexOf(",");
         return thePair.substring (loc+1, thePair.length()-1);
     }
+
+    public String toString(){
+        return thePair;
+    }
 }
