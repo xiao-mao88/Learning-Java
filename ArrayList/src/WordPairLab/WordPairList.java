@@ -22,7 +22,14 @@ public class WordPairList {
                 counter++;
             }
         }
-
         return counter;
+    }
+
+    public String toString(){
+        String newString = "";
+        for (int i=0; i<allPairs.size(); i++){
+            newString += allPairs.get(i) + "\n";
+        }
+        return newString;
     }
 }
