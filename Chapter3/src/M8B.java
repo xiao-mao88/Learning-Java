@@ -25,7 +25,7 @@ public class M8B {
             switch (magicreply)
             {
                 case 0:
-                    System.out.println("Most likely)");
+                    System.out.println("Most likely");
 
                 case 1:
                     System.out.println("It is certain.");
